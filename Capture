@@ -6,9 +6,9 @@ local function tp()
     local hrp = char:WaitForChild("HumanoidRootPart")
 
     hrp.CFrame = CFrame.new(
-        8154.386719,
-        -5.911531,
-        -1636.343872
+        -513.709045,
+        3.367846,
+        -550.980286
     )
 end
 
