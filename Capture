@@ -1,0 +1,15 @@
+local Players = game:GetService("Players")
+local lp = Players.LocalPlayer
+
+local function tp()
+    local char = lp.Character or lp.CharacterAdded:Wait()
+    local hrp = char:WaitForChild("HumanoidRootPart")
+
+    hrp.CFrame = CFrame.new(
+        8154.386719,
+        -5.911531,
+        -1636.343872
+    )
+end
+
+tp()
